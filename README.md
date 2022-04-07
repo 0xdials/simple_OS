@@ -1,2 +1,2 @@
 # simple_OS
-A basic x64 OS written to better understand how operating systems work.
+A basic x64 operating system written to better understand how operating systems work.
