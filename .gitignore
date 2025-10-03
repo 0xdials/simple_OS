@@ -1,0 +1,65 @@
+# --- OS build artifacts ---
+/build/
+/dist/
+/int/
+
+# object files, archives, maps, listings
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.dylib
+*.lo
+*.la
+*.out
+*.map
+*.lst
+
+# binaries/images produced by the toolchain
+*.bin
+*.elf
+*.iso
+*.img
+*.vhd
+*.vdi
+*.qcow2
+
+# bootloader / GRUB outputs (if generated)
+*.mod
+*.mod.c
+*.cmd
+*.symvers
+
+# dependency files
+*.d
+
+# assembler intermediates
+*.s
+*.i
+
+# logs & misc
+*.log
+*.tmp
+*.pid
+
+# ccache / tool caches
+/.ccache/
+.cache/
+
+# editor/IDE junk
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# python helper scripts (if any)
+__pycache__/
+*.pyc
+
+# docker build rubbish (if you ever use local cache dirs)
+.docker/
+.docker-buildx/
+
